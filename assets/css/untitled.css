@@ -1,3 +1,17 @@
 header.masthead {
 }
 
+.logo { 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  height: 22px;
+}
+
+.logo-white {
+  background-image: url('../img/wm-header-white.png');
+}
+
+.logo-black {
+  background-image: url('../img/wm-header-black.png');
+}

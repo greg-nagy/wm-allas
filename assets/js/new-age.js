@@ -30,8 +30,12 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $("#wm-logo").removeClass("logo-white");
+      $("#wm-logo").addClass("logo-black");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $("#wm-logo").removeClass("logo-black");
+      $("#wm-logo").addClass("logo-white");
     }
   };
   // Collapse now if page is not at top
